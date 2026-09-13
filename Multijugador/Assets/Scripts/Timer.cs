@@ -11,7 +11,7 @@ public class Timer : NetworkBehaviour
     public TMP_Text Perdiste;
     public TMP_Text textoTimer;
     public ControlDeInicioDePartida IniciadorCondicion;
-    public NetworkVariable<float> tiempo = new NetworkVariable<float>(10);
+    public NetworkVariable<float> tiempo = new NetworkVariable<float>(30);
     public NetworkVariable<bool> partidaTerminada = new NetworkVariable<bool>(false);
     public void Update()
     {
